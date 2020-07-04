@@ -4,7 +4,7 @@
   <img src="https://user-images.githubusercontent.com/47216809/86511259-ef33e380-be14-11ea-8ea3-3a3cc4ff5ce8.jpg">
 </p>
 
-<h1>
+<h1 align="center">
          WINE QUALITY ANALYSIS
 </h1>
 
@@ -30,6 +30,19 @@ The discriminating hyperplane corresponding to the values α1 =[17,51] ,α2 = [3
 <p align="center">
   <img src="https://user-images.githubusercontent.com/47216809/86511378-248d0100-be16-11ea-8c9a-56ac56f64389.jpg">
 </p>
+
+In SVM, we have some hyperplane which separates the positive (yi = +1) from the negative (yi = -1) examples (a separating hyperplane). The points ‘x’ which lie on the hyperplane satisfy x ・ w + b = 0, where w is normal to the hyperplane. Here,    is the perpendicular distance from the hyperplane to the origin, and ||w|| is the Euclidean norm of w. Let d+(d-) be the shortest distance from the separating hyperplane to the closest positive (negative) example. The “margin” of a separating hyperplane is defined to be (d+) + (d-). For the linearly separable case, the support vector algorithm simply looks for the separating hyperplane with largest margin. 
+This can be formulated as follows: suppose that all the training data satisfy the following constraints:  <p align="center">
+  <img src="https://user-images.githubusercontent.com/47216809/86511411-83527a80-be16-11ea-9d7b-535560278fac.png">
+</p>
+
+Thus, the solution for a typical two dimensional case have the form shown in the above graph. Those training points for which the equality in constraint 1 holds (i.e. those which wind up lying on one of the hyperplanes H1, H2), and whose removal would change the solution found, are called support vectors; they are indicated in figure by the Red(‘<’) and Blue(‘>’) marks. 
+
+<h2>
+          Conclusion:
+</h2>
+
+Hence, we implemented SVM algorithm on red wine quality dataset which discriminates the two classes as good wine and bad wine quality respectively according to the physiochemical attributes of the red wine. We also built our own SVM from scratch which slightly gives more accuracy than the sklearn’s linear SVM.
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\THANK - YOU///////////////////////////////////////////////////////////////////
