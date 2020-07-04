@@ -4,9 +4,9 @@
   <img src="https://user-images.githubusercontent.com/47216809/86511259-ef33e380-be14-11ea-8ea3-3a3cc4ff5ce8.jpg">
 </p>
 
-<h4>
-          WINE QUALITY ANALYSIS
-</h4>
+<h1>
+         WINE QUALITY ANALYSIS
+</h1>
 
 This mini project was made as a part of completion of the practical sessions in the subject Machine Learning. We have used a red wine quality dataset of the Portuguese "Vinho Verde" wine as the input to our program. These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. We train our model using the given 1599 instances of wine qualities and then use this trained model to predict the quality of wine using SVM from scratch.
 
